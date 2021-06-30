@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_label",
+      "value": "learn a bit harder"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

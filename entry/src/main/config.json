@@ -1,0 +1,51 @@
+{
+  "app": {
+    "bundleName": "org.shchen.mobileplatform",
+    "vendor": "shchen",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "org.shchen.mobileplatform",
+    "name": ".MyApplication",
+    "mainAbility": "org.shchen.mobileplatform.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "org.shchen.mobileplatform.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_label",
+        "type": "page",
+        "launchType": "standard",
+        "visible": true
+      }
+    ]
+  }
+}
