@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="vertical_center"
+    ohos:orientation="vertical"
+    ohos:background_element="$graphic:background_entrance_slice2">
+
+    <Text
+        ohos:id="$+id:entrance_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_white"
+        ohos:text_alignment="center"
+        ohos:text="$string:entrance_welcome_text"
+        ohos:text_size="40vp"
+        ohos:text_color="$ohos:color:id_color_background_dark"
+        />
+
+    <DirectionalLayout
+        ohos:id="$+id:service_silice_layout"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:center_in_parent="true"
+        ohos:alignment="center"
+        ohos:below="$+id:entrance_text">
+        <Button
+            ohos:id="$+id:switch_to_homepage_button"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="跳转"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:below="$id:entrance_text"
+            ohos:top_margin="20vp"
+            ohos:padding="20vp"
+            ohos:text_size="20vp"
+            ohos:background_element="$graphic:button_sample"
+            />
+
+        <Button
+            ohos:id="$+id:start_service_ability"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="启动"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="horizontal_center"
+            ohos:below="$+id:entrance_text"
+            ohos:top_margin="20vp"
+            ohos:padding="20vp"
+            ohos:text_size="20vp"
+            ohos:background_element="$graphic:button_sample"
+
+            />
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="5vp"
+        ohos:width="match_parent"/>
+
+    <DirectionalLayout
+        ohos:below="$+id:service_silice_layout"
+        ohos:height="match_content"
+        ohos:alignment="horizontal_center"
+        ohos:top_margin="20vp"
+        ohos:padding="20vp"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+        <TextField
+            ohos:id="$+id:user_name_input_field"
+            ohos:focus_border_enable="true"
+            ohos:focus_border_width="2vp"
+            ohos:text_color="#000"
+            ohos:text_size="16vp"
+            ohos:height="60vp"
+            ohos:width="200vp"
+            ohos:background_element="$graphic:background_white">
+        </TextField>
+
+        <Button
+            ohos:id="$+id:init_local_db"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="初始化"
+            ohos:below="$+id:user_name_input_field"
+            ohos:text_size="20vp"
+            ohos:padding="20vp"
+            ohos:background_element="$graphic:button_sample"
+            />
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="5vp"
+        ohos:width="match_parent"/>
+
+    <DirectionalLayout
+        ohos:below="$+id:init_local_db"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:center_in_parent="true"
+        ohos:alignment="center"
+        ohos:top_margin="20vp"
+        ohos:padding="20vp"
+        ohos:layout_direction="ltr"
+        ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:insert_local_db"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="插入"
+            ohos:below="$+id:user_name_input_field"
+            ohos:text_size="20vp"
+            ohos:padding="20vp"
+            ohos:background_element="$graphic:button_sample"
+            />
+
+        <Button
+            ohos:id="$+id:query_local_db"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="查询"
+            ohos:below="tet$+id:insert_local_db"
+            ohos:text_size="20vp"
+            ohos:padding="20vp"
+            ohos:background_element="$graphic:button_sample"
+            />
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:id="$+id:bottom_navigation_bar"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+    </ListContainer>
+</DependentLayout>

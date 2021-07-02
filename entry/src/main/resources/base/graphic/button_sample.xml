@@ -6,4 +6,6 @@
         ohos:radius="100"/>
     <solid
         ohos:color="#007DFF"/>
+    <gradient ohos:shader_type="radial_gradient">
+    </gradient>
 </shape>

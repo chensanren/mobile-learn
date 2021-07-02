@@ -24,6 +24,11 @@ dependencies {
 
     ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
 }
+
+//compileOptions{
+//    annotationEnabled true
+//}
+
 decc {
     supportType = ['html','xml']
 }

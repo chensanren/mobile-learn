@@ -11,7 +11,7 @@
   "module": {
     "package": "org.shchen.mobileplatform",
     "name": ".MyApplication",
-    "mainAbility": "org.shchen.mobileplatform.MainAbility",
+    "mainAbility": "org.shchen.mobileplatform.EntranceAbility",
     "deviceType": [
       "phone",
       "tablet",
@@ -38,13 +38,29 @@
           }
         ],
         "orientation": "unspecified",
-        "name": "org.shchen.mobileplatform.MainAbility",
+        "name": "org.shchen.mobileplatform.EntranceAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:app_label",
         "type": "page",
         "launchType": "standard",
         "visible": true
+      },
+      {
+        "name": "org.shchen.mobileplatform.ServiceAbility",
+        "icon": "$media:icon",
+        "type": "service",
+        "visible": true
+      },
+      {
+        "permissions": [
+          "org.shchen.mobileplatform.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "org.shchen.mobileplatform.DataAbility",
+        "icon": "$media:icon",
+        "description": "$string:dataability_description",
+        "type": "data",
+        "uri": "dataability://org.shchen.mobileplatform.DataAbility"
       }
     ]
   }

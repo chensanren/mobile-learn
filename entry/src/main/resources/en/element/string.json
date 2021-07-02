@@ -2,14 +2,26 @@
   "string": [
     {
       "name": "app_label",
-      "value": "learn a bit harder"
+      "value": "Harder"
     },
     {
       "name": "mainability_description",
       "value": "Java_Empty Ability"
     },
     {
-      "name": "mainability_HelloWorld",
+      "name": "entrance_welcome_text",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_EntranceAbility",
+      "value": "entry_EntranceAbility"
+    },
+    {
+      "name": "entranceability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entranceability_HelloWorld",
       "value": "Hello World"
     }
   ]

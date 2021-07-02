@@ -2,19 +2,39 @@
   "string": [
     {
       "name": "app_label",
-      "value": "learn a bit harder"
+      "value": "Harder"
     },
     {
       "name": "mainability_description",
       "value": "Java_Empty Ability"
     },
     {
-      "name": "mainability_HelloWorld",
+      "name": "entrance_welcome_text",
       "value": "Hello World"
     },
     {
-      "name": "mainability_HomeButton",
+      "name": "entrance_button_switch_to_homepage",
       "value": "Navigation"
+    },
+    {
+      "name": "dataability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "serviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "entranceability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "entranceability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_EntranceAbility",
+      "value": "entry_EntranceAbility"
     }
   ]
 }
